@@ -6,12 +6,19 @@ using System.Threading.Tasks;
 
 namespace OOPSConcept
 {
-    internal class ClassName
+    public class ClassName
     {
+        //Non-Parametrised method
         public void PrintName()
         {
-                Console.WriteLine("Shruthi");
+            Console.WriteLine("Shruthi");
         }
+        //Parametrised method
+        public void PrintType(string name)
+        {
+            Console.WriteLine(name);
+        }
+
     }
 }
 
