@@ -4,10 +4,8 @@
     {
         static void Main(string[] args)
         {
-            ClassName name = new ClassName();
-            name.PrintName();
-            name.PrintType("Shruthi");
-            Console.ReadKey();
+          //  Constrctor constrctor = new Constrctor();
+            Console.ReadLine();
         }
     }
 }

@@ -11,7 +11,7 @@ namespace OOPSConcept
         //Non-Parametrised method
         public void PrintName()
         {
-            Console.WriteLine("Shruthi");
+               Console.WriteLine("Shruthi");
         }
         //Parametrised method
         public void PrintType(string name)
