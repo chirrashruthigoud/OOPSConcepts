@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace OOPSConcept
 {
-    public class ClassName
+    public class Calculator: InterfaceType
     {
-        //Non-Parametrised method
-        public void PrintName()
+        // Non-parameterized method
+        public void SayHello()
         {
-               Console.WriteLine("Shruthi");
-        }
-        //Parametrised method
-        public void PrintType(string name)
-        {
-            Console.WriteLine(name);
+            Console.WriteLine("Hello!");
         }
 
+        // Parameterized method
+        public int AddNumbers(int a, int b)
+        {
+            return a + b;
+        }
+
+        public void WithoutImplementionmethod()
+        {
+            Console.WriteLine("this is my classname");
+        }
     }
 }
 
