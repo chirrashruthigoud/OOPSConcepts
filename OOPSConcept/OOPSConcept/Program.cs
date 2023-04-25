@@ -11,7 +11,11 @@
              Console.WriteLine("Result: " + result);*/
 
             //interface
+<<<<<<< HEAD
             /*Calculator obj = new Calculator();
+=======
+           /* Calculator obj = new Calculator();
+>>>>>>> UC5_Inheritance
             obj.WithoutImplementionmethod();*/
 
 
@@ -22,8 +26,14 @@
              Console.WriteLine(count);*/
 
 
+<<<<<<< HEAD
             //inheritance
            Inheritance parent = new Inheritance();
+=======
+            //inheritance 
+
+            Inheritance parent = new Inheritance();
+>>>>>>> UC5_Inheritance
             parent.name = "shruthi";
             parent.Testname();
             parent.Class();

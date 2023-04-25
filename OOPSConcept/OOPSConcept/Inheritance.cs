@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 namespace OOPSConcept
 {   //inheritance is totally dependent on derived class and base class /child or parent class
     //we are using colon :
+<<<<<<< HEAD
     public class Inheritance : baseclass
+=======
+    public class Inheritance : baseclass  
+>>>>>>> UC5_Inheritance
     {
         public Inheritance()  //paresentclass
         {
@@ -26,4 +30,8 @@ namespace OOPSConcept
             Console.WriteLine("this a base class");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> UC5_Inheritance
