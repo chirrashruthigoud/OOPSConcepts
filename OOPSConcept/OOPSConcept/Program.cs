@@ -11,32 +11,25 @@
              Console.WriteLine("Result: " + result);*/
 
             //interface
-<<<<<<< HEAD
-            /*Calculator obj = new Calculator();
-=======
+
            /* Calculator obj = new Calculator();
->>>>>>> UC5_Inheritance
             obj.WithoutImplementionmethod();*/
 
 
             //enum
 
-            /* Console.WriteLine(ENUMDatatype.shruthi);
+             Console.WriteLine(ENUMDatatype.shruthi);
              int count = (int)ENUMDatatype.sunny;
-             Console.WriteLine(count);*/
+             Console.WriteLine(count);
 
 
-<<<<<<< HEAD
-            //inheritance
-           Inheritance parent = new Inheritance();
-=======
+
             //inheritance 
 
-            Inheritance parent = new Inheritance();
->>>>>>> UC5_Inheritance
+          /*  Inheritance parent = new Inheritance();
             parent.name = "shruthi";
             parent.Testname();
-            parent.Class();
+            parent.Class();*/
         }
     }
 }
