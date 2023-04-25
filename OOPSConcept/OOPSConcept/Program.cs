@@ -11,8 +11,8 @@
              Console.WriteLine("Result: " + result);*/
 
             //interface
-            Calculator obj = new Calculator();
-            obj.WithoutImplementionmethod();
+           /* Calculator obj = new Calculator();
+            obj.WithoutImplementionmethod();*/
 
 
             //enum
@@ -22,11 +22,12 @@
              Console.WriteLine(count);*/
 
 
-            //inheritance
-           /* Inheritance parent = new Inheritance();
+            //inheritance 
+
+            Inheritance parent = new Inheritance();
             parent.name = "shruthi";
             parent.Testname();
-            parent.Class();*/
+            parent.Class();
         }
     }
 }
