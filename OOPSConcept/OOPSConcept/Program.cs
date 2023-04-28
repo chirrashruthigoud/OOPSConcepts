@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            ClassName name = new ClassName();
-            name.PrintName();
-            name.PrintType("Shruthi");
+             Method name = new Method();
+             name.parameterizedmethod("shruthi", 12);
+             name.nonparameterized();
             Console.ReadKey();
         }
     }
