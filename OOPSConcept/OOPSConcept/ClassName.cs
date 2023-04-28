@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace OOPSConcept
 {
-    internal class ClassName
+    public class Object
+       // Define a class named Object
     {
-        public void PrintName()
+        public string Name;
+        public int Age;
+
+        public void SayHello()
         {
-                Console.WriteLine("Shruthi");
+            Console.WriteLine("Hello, my name is " + Name + " and I am " + Age + " years old.");
         }
     }
 }
